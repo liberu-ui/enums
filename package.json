@@ -1,0 +1,30 @@
+{
+  "name": "@enso-ui/enums",
+  "version": "1.0.0",
+  "description": "Enums",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/@enso-ui/enums.git"
+  },
+  "keywords": [
+    "enso",
+    "enums",
+    "vue"
+  ],
+  "author": "Adrian Ocneanu <aocneanu@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/@enso-ui/enums/issues"
+  },
+  "homepage": "https://github.com/@enso-ui/enums#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^6.0.0"
+  }
+}
