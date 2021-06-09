@@ -1,7 +1,7 @@
 class Enum {
     constructor(data, i18n) {
         this._internalData = data;
-        this.i18n = i18n;
+        this._i18n = i18n;
 
         Object.keys(data).forEach(key => this._assign(key));
     }
@@ -15,7 +15,7 @@ class Enum {
     }
 
     _get(key) {
-        return this.i18n(this._internalData[key]);
+        return this._i18n(this._internalData[key]);
     }
 
     _has(key) {
@@ -25,13 +25,13 @@ class Enum {
 
     _select() {
         return Object.keys(this._internalData).map(key => ({
-            id: key, name: this.i18n(this._internalData[key]),
+            id: key, name: this._i18n(this._internalData[key]),
         }));
     }
 
     _filter() {
         return Object.keys(this._internalData).map(key => ({
-            value: key, label: this.i18n(this._internalData[key]),
+            value: key, label: this._i18n(this._internalData[key]),
         }));
     }
 
@@ -41,7 +41,7 @@ class Enum {
 
     _values() {
         return Object.keys(this._internalData)
-            .map(key => this.i18n(this._internalData[key]));
+            .map(key => this._i18n(this._internalData[key]));
     }
 
     _all() {
@@ -50,7 +50,7 @@ class Enum {
 
     _data() {
         return Object.keys(this._internalData).reduce((obj, key) => {
-            obj[key] = this.i18n(this._internalData[key]);
+            obj[key] = this._i18n(this._internalData[key]);
             return obj;
         }, {});
     }
