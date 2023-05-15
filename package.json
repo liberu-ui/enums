@@ -1,5 +1,5 @@
 {
-  "name": "@cgdsoftware/enums",
+  "name": "@liberu-ui/enums",
   "version": "1.0.9",
   "description": "Enums",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/@cgdsoftware/enums.git"
+    "url": "git+https://github.com/@liberu-ui/enums.git"
   },
   "keywords": [
     "enso",
@@ -18,9 +18,9 @@
   "author": "Adrian Ocneanu <aocneanu@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/@cgdsoftware/enums/issues"
+    "url": "https://github.com/@liberu-ui/enums/issues"
   },
-  "homepage": "https://github.com/@cgdsoftware/enums#readme",
+  "homepage": "https://github.com/@liberu-ui/enums#readme",
   "dependencies": {},
   "devDependencies": {
     "@vue/cli-plugin-babel": "5.0.0-beta.6",
