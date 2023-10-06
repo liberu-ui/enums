@@ -1,6 +1,6 @@
 {
   "name": "@liberu-ui/enums",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Enums",
   "main": "index.js",
   "scripts": {
